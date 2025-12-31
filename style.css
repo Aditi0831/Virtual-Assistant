@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+*{
+    padding: 0 ;
+    margin: 0;
+}
+
+body{
+  background-color: black;
+  height: 100 %;
+  width: 100 %;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-direction :column;
+}
+
+#logo{
+    width: 20vw;
+    
+}
+
+h1{
+    color: aqua;
+    font-family:Georgia, 'Times New Roman', Times, serif;}
+
+ #name {
+    color: rgb(26, 113, 84);
+    font-family: Bungee Tint;
+    font-size: 50px;
+
+
+ }
+
+ #va{
+    font-family:Bungee Tint ;
+    font-size: 50px;
+ }
+
+#voice{
+    width: 150px;
+    display: none;
+}#btn{
+    width: 50 px;
+    background :linear-gradient(to right ,rgb(0, 115, 255),rgb(255, 0, 187));
+    padding:10px;
+    display: flex;
+    align-items: centre;
+    justify-content: centre;
+    gap:20px;
+    font-size:20px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 2px 2px 10px rgb(0, 115, 255) , 2px 2px 10px rgb(255, 0, 187);
+    border:none;
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+#btn:hover{
+    box-shadow: 2px 2px 30px rgb(0, 115, 255) , 2px 2px 30px rgb(255, 0, 187);
+    letter-spacing: 2px;
+
+}
